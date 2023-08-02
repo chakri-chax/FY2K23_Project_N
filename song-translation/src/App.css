@@ -1,0 +1,26 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.lyrics-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.lyrics-box,
+.translation-box {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  font-size: 14px;
+}
